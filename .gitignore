@@ -1,0 +1,12 @@
+# Secretos y entorno
+.env
+
+# Datos de entrada y base generada
+facturas/
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/

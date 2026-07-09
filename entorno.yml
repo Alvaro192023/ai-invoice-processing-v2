@@ -1,0 +1,12 @@
+name: ai-invoice-processing
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas>=2.0
+  - sqlalchemy>=2.0
+  - pip
+  - pip:
+      - openai>=1.0
+      - pymupdf>=1.23
+      - python-dotenv>=1.0
